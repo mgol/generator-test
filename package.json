@@ -4,10 +4,14 @@
     "description": "Yeoman generator",
     "license": "MIT",
     "main": "app/index.js",
+    "scripts": {
+        "test": "grunt"
+    },
     "dependencies": {
         "yeoman-generator": "0.16.0"
     },
     "devDependencies": {
+        "grunt-cli": "~0.1.13",
         "grunt": "0.4.4",
         "grunt-contrib-watch": "0.6.1",
         "grunt-mocha-test": "0.10.0",
